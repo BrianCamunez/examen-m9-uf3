@@ -1,3 +1,5 @@
+"use client"
+
 import Footer from "@/components/misComponentes/Footer";
 import Header from "@/components/misComponentes/Header"
 import Seccion1 from "@/components/misComponentes/Seccion1";

@@ -1,4 +1,7 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Header() {
   return (
@@ -14,8 +17,8 @@ export default function Header() {
             </svg>
             <h2 className="fw-bold">Pandem</h2>
           </div>
-          <h2>Docs</h2>
-          <h2>Pricing</h2>
+          <Link href="/Docs">Docs</Link>
+          <Link href="/Pricing">Pricing</Link>
           <h2>Status</h2>
           <h2>FAQs</h2>
           <h2>Contact Us</h2>
@@ -25,6 +28,6 @@ export default function Header() {
           <Button className="justify-self-end px-3 py-2 text-md bg-white text-black">Sign Up</Button>
         </div>
       </header>
-    </div>
+    </div >
   )
 }

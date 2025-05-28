@@ -1,3 +1,5 @@
+"use client"
+
 export default function Footer() {
     return (
         <div className="border-t-1 border-[#27272A]">
