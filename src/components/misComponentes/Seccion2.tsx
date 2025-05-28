@@ -2,10 +2,10 @@ import { Button } from "@/components/ui/button"
 
 export default function Seccion2() {
     return (
-        <section>
-            <div className="text-center mt-[130px]">
-                <h1 className="text-[48px] py-20">Quick solutions, less stress</h1>
-                <div className="grid grid-cols-3 gap-3 w-[960px]">
+        <section className="justify-items-center text-center">
+            <div className="mt-[130px]">
+                <h1 className="text-[48px] py-20 font-bold">Quick solutions, less stress</h1>
+                <div className="grid grid-cols-3 gap-10 w-[960px]">
                     <div className="text-start">
                         <svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="1.03516" width="55" height="55" rx="5.5" fill="#09090B" />
@@ -14,7 +14,7 @@ export default function Seccion2() {
                             <path d="M28 30.5352L31 27.5352" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                             <path d="M28 38.5352C32.4183 38.5352 36 34.9534 36 30.5352C36 26.1169 32.4183 22.5352 28 22.5352C23.5817 22.5352 20 26.1169 20 30.5352C20 34.9534 23.5817 38.5352 28 38.5352Z" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
-                        <h3 className="text-[24px] text-[#D9D9D9] fw-bold">Fix emergencies fast</h3>
+                        <h3 className="text-[24px] text-[#D9D9D9] font-bold py-7">Fix emergencies fast</h3>
                         <p className="text-[#D9D9D9] text-[14px]">Save 20-30 minutes per on-call ticket - no more searching for relevant issues and runbooks</p>
                     </div>
                     <div className="text-start">
@@ -27,7 +27,7 @@ export default function Seccion2() {
                             <path d="M23 20.5352V36.5352" stroke="#D9D9D9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                         </svg>
 
-                        <h3 className="text-[24px] text-[#D9D9D9] fw-bold">Universally compatible</h3>
+                        <h3 className="text-[24px] text-[#D9D9D9] font-bold py-7">Universally compatible</h3>
                         <p className="text-[#D9D9D9] text-[14px]">Works with PagerDuty, Jira, or custom Slack alerts—Pandem integrates with any system</p>
                     </div>
                     <div className="text-start">
@@ -40,23 +40,23 @@ export default function Seccion2() {
                         </svg>
 
 
-                        <h3 className="text-[24px] text-[#D9D9D9] fw-bold">Secure for your org</h3>
+                        <h3 className="text-[24px] text-[#D9D9D9] font-bold py-7">Secure for your org</h3>
                         <p className="text-[#D9D9D9] text-[14px]">We keep your data safe by taking top security measures</p>
                     </div>
                 </div>
-                <div className="w-[672px]">
-                    <h1 className="text-[48px] text-[#FAFAFA]">Instant setup, no custom code</h1>
-                    <h3 className="text-[#D9D9D9] text-[18px]">Invite the bot, pick a channel, and youre set—no custom code needed, and no vendor lock-in.</h3>
-                    <img className="w-[672px] rounded-[4px]" src="/capturaImagen.png" alt="Imagen de una captura" />
-                </div>
             </div>
-            <div className="w-[672px]">
-                <h1 className="text-[48px] text-[#FAFAFA]">Get in touch</h1>
-                <h3 className="text-[#D9D9D9] text-[18px]">Request a demo, or hop on a call.</h3>
-                <Button className="bg-[#FAFAFA] text-black my-[40px]">Get started <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M1 9L5 5L1 1" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    </Button>
+            <div className="w-[672px] mt-[100px]">
+                <h1 className="text-[48px] text-[#FAFAFA] font-bold">Instant setup, no custom code</h1>
+                <h3 className="text-[#D9D9D9] text-[18px] py-4">Invite the bot, pick a channel, and youre set—no custom code needed, and no vendor lock-in.</h3>
+                <img className="w-[672px] rounded-[4px]" src="/capturaImagen.png" alt="Imagen de una captura" />
+            </div>
+            <div className="w-[672px] my-[100px]">
+                <h1 className="text-[48px] text-[#FAFAFA] font-bold">Get in touch</h1>
+                <h3 className="text-[#D9D9D9] text-[18px] py-6">Request a demo, or hop on a call.</h3>
+                <Button className="bg-[#FAFAFA] text-black my-[40px] text-[14px] my-0">Get started <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 9.63672L5 5.63672L1 1.63672" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                </Button>
             </div>
         </section>
     )
