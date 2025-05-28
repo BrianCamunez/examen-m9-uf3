@@ -2,8 +2,8 @@ import { Button } from "@/components/ui/button"
 
 export default function Header() {
   return (
-    <div>
-      <header className="flex h-20 w-full items-center justify-between">
+    <div className="border-b-1 border-[#27272A]">
+      <header className="flex h-20 w-full items-center justify-between xl:px-[60px]">
         <div className="flex gap-6">
           <div className="flex gap-2">
             <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">

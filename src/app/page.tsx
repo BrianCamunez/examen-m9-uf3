@@ -1,13 +1,15 @@
+import Footer from "@/components/misComponentes/Footer";
 import Header from "@/components/misComponentes/Header"
 import Seccion1 from "@/components/misComponentes/Seccion1";
+import Seccion2 from "@/components/misComponentes/Seccion2";
 
 export default function Home() {
   return (
     <>
-      <div className="xl:px-[60px]">
         <Header />
         <Seccion1/>
-      </div>
+        <Seccion2/>
+        <Footer/>
     </>
   );
 }

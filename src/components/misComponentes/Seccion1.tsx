@@ -11,7 +11,7 @@ export default function Seccion1() {
                     </svg>
                     </Button>
             </div>
-            <img className="w-[1024px] h-[632px]" src="/capturaImagen.png" alt="Imagen de una captura" />
+            <img className="w-[1024px]" src="/capturaImagen.png" alt="Imagen de una captura" />
         </section>
     )
 }
