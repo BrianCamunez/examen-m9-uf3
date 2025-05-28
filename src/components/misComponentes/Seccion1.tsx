@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export default function Seccion1() {
     return (
-        <section className="justify-items-center xs:mx-[20px]">
+        <section className="justify-items-center px-[20px]">
             <div className="md:w-[672px] text-center pt-[100px]">
                 <h1 className="text-[48px] font-bold">Information you need during on-call emergencies</h1>
                 <h4 className="text-[#D9D9D9] py-4">Quickly link new on-call tickets to similar past incidents and their solutions. All directly in Slack the moment an incident happens.</h4>

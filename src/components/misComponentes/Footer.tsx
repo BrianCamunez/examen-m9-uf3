@@ -3,7 +3,7 @@
 export default function Footer() {
     return (
         <div className="border-t-1 border-[#27272A]">
-            <header className="flex h-20 w-full items-center justify-between xl:px-[60px]">
+            <header className="flex h-20 w-full items-center justify-between xl:px-[60px] px-[20px]">
                 <div className="flex gap-6">
                     <div className="flex gap-2">
                         <svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg">

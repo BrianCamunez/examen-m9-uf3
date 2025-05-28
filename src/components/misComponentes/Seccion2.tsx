@@ -4,10 +4,10 @@ import { Button } from "@/components/ui/button"
 
 export default function Seccion2() {
     return (
-        <section className="justify-items-center text-center w-full">
-            <div className="md:mt-[130px]">
+        <section className="justify-items-center text-center px-[20px]">
+            <div className="md:mt-[130px] mt-[60px]">
                 <h1 className="text-[48px] py-20 font-bold">Quick solutions, less stress</h1>
-                <div className="grid grid-cols-3 gap-10 md:w-[960px]">
+                <div className="grid md:grid-cols-3 gap-10 md:w-[960px]">
                     <div className="text-start">
                         <svg width="56" height="57" viewBox="0 0 56 57" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect x="0.5" y="1.03516" width="55" height="55" rx="5.5" fill="#09090B" />
@@ -47,7 +47,7 @@ export default function Seccion2() {
                     </div>
                 </div>
             </div>
-            <div className="md:w-[672px] md:mt-[100px]">
+            <div className="md:w-[672px] md:mt-[100px] mt-[50px]">
                 <h1 className="text-[48px] text-[#FAFAFA] font-bold">Instant setup, no custom code</h1>
                 <h3 className="text-[#D9D9D9] text-[18px] py-4">Invite the bot, pick a channel, and youre set—no custom code needed, and no vendor lock-in.</h3>
                 <img className="w-[672px] rounded-[4px]" src="/capturaImagen.png" alt="Imagen de una captura" />
@@ -55,7 +55,7 @@ export default function Seccion2() {
             <div className="md:w-[672px] md:my-[100px]">
                 <h1 className="text-[48px] text-[#FAFAFA] font-bold">Get in touch</h1>
                 <h3 className="text-[#D9D9D9] text-[18px] py-6">Request a demo, or hop on a call.</h3>
-                <Button className="bg-[#FAFAFA] text-black my-[40px] text-[14px] my-0">Get started <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <Button className="bg-[#FAFAFA] text-black my-[40px] text-[14px]">Get started <svg width="6" height="11" viewBox="0 0 6 11" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1 9.63672L5 5.63672L1 1.63672" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                 </svg>
                 </Button>
